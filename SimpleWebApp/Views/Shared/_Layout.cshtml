@@ -1,0 +1,17 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    @Styles.Render("~/Content/Layout.css")
+    @Styles.Render("~/Content/Index.css")
+</head>
+<body>
+    <ul class="topnav">
+        <li><a class="active" href="~/Home/Index">Index</a></li>
+        <li><a href="~/Home/LoremIpsum">LoremIpsum</a></li>
+        <li class="right"><a href="~/Home/About">About</a></li>
+    </ul>
+    <div>@RenderBody()</div>
+</body>
+</html>
